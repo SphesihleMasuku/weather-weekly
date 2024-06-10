@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView2"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation"
+    tools:context=".DetailedViewScreen">
+
+    <TextView
+        android:id="@+id/dayTV"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/minTV"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/maxTV"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/conditionTV"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/averageMin"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/averageMax"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_height="80dp" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="401dp"
+        android:layout_height="82dp"
+        android:background="#00008B"
+        android:text="Button"
+        android:textSize="30dp"
+        android:textColor="#78909C" />
+</LinearLayout>
